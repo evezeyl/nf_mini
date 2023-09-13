@@ -1,0 +1,27 @@
+name: confindr
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pip=23.2.1
+  - biopython=1.81
+  - bbmap=39.01
+  - mash=2.3
+  - kma=1.4.9
+  - samtools=1.17
+  - pysam=0.21.0
+  - minimap2=2.26
+  - rauth==0.7.3
+  - confindr=0.8.1
+
+
+
+
+
+
+#    - pip:
+prefix: /opt/conda/envs/confindr
+#prefix: /home/evfi/anaconda3/envs/confindr
+#prefix: /cluster/projects/nn9305k/src/miniconda/envs/alppaca_report
